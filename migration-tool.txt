@@ -1,0 +1,51 @@
+9945965345
+
+Importing data
+
+1. Do we need to generate extraction scripts -- ? 
+2. Metadata of our application
+   Equation Version ..etc
+       Tables
+       -- columns
+       -- generate extraction scripts
+       
+3. SQL Loader files to load data into our mapping tables in Oracle
+   Generate or save these in the GitLab server - branch Install/ApplicationCode/Version
+   
+  
+  
+Operations Scheduler - Design a run
+   -- Name the run, extract the files needed, execute the files, get the output, get the output files
+   -- load the data, check the statistics, if ok...close the run.. 
+   -- check in all the input and ouput files with tag - run name
+   
+   
+1. A run is a set of pipelines
+   a. Define Pipelines       
+      i. Step - extraction
+      ii. transformation
+      iii. transformation
+      iii. generate file
+       
+      
+      container - retail ...etc...
+      
+raising events      
+status monitoring      
+records updated
+
+1. Git repositories
+   a. Application Repository
+      equation-version.txt
+      opics-version.txtt
+      xyz-version.tx
+      
+   precision/applications/equation-version.csv...etc.
+            /seeddata      
+      
+https://github.com/ennovatenow/precision-git.git
+
+curl -X POST http://localhost:8080/checkout
+
+curl -F ‘data=@path/to/local/file’ UPLOAD_ADDRESS
+
