@@ -11,10 +11,10 @@ export SQLLDR_BAD="$SQLLDR_BAD/$ITERATION"
 export GIT_WORK_AREA="$GIT_LOCAL_FOLDER/$ITERATION"
 export MIGRATION_SCRIPT="$MIGRATION.sh"
 
-mkdir "$SPOOL_PATH"
-mkdir "$SQLLDR_LOG"
-mkdir "$SQLLDR_BAD"
-mkdir "$GIT_LOCAL_FOLDER"
+mkdir -p "$SPOOL_PATH"
+mkdir -p "$SQLLDR_LOG"
+mkdir -p "$SQLLDR_BAD"
+mkdir -p "$GIT_LOCAL_FOLDER"
 
 git clone "$GIT_URL" "$GIT_WORK_AREA"
 
