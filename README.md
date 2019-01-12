@@ -4,7 +4,8 @@ Data migration execution and governance framework.
 ## Usage
 Using the Precision 100 framework is as easy as cloning the repository and executing the `migration.sh` shell script. It, ofcourse, assumes that the [prerequisite](http://github.com/ennovatenow/precision-git#prerequisites) components are already installed.
 
-The following command executes a demo migration, no records are actually migrated but it serves the purpose of checking if all the prerequisite components are intalled and configured properly. The 'longer example' and the 'longer longer example' examples provide more details for configuring the framework for proper usage.
+### A simple demo
+The following command executes a demo migration, no records are actually migrated but it serves the purpose of checking if all the prerequisite components are intalled and configured properly. The ['longer example'](https://github.com/ennovatenow/precision-git#a-longer-example) and the 'longer longer example' examples provide more details for configuring the framework for proper usage.
 
 The demo migration expects that there is an Oracle schema with the name `precision100` and password `Welcome123` in an Oracle instance with SID: `mig`.
 
