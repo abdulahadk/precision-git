@@ -1,5 +1,5 @@
 #!/bin/bash
-source .env.sh
+source $PRECISION100_FOLDER/.env.sh
 
 if [ "$#" -lt 2 ]; then
     echo "Usage: $0 <migration name> <run name> [pipeline name] [container name]"
