@@ -6,6 +6,8 @@ Clone the repository and run the following. If environement is properly setup yo
 
 `migration.sh cif_migration mock001`
 
+This assumes that there is an Oracle schema with the name `precision100` with the password `Welcome123` with an Oracle SID of `mig`.
+
 ## Prerequisites
 The framework requires the following components to work
 
