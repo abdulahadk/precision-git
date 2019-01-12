@@ -1,5 +1,5 @@
 # Precision 100 Migration Framework
-Data migration execution and governance framework
+Data migration execution and governance framework.
 
 ## Usage
 Clone the repository and run the following. If environement is properly setup you should see two records in the output table.
@@ -23,7 +23,7 @@ GRANT ALL PRIVILEGE TO precision100;
 GRANT UNLIMITED TABLESPACE TO precision100;
 ```
 
-Once the schema and passwords are created, change .env.sh to reflect the customized attributes
+Once the schema and passwords are created, change `.env.sh` to reflect the customized attributes.
 
 ```
 export USERNAME=precision100
