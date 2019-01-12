@@ -2,14 +2,18 @@
 Data migration execution and governance framework.
 
 ## Usage
-Clone the repository and run the following. If environement is properly setup you should see two records in the output table.
+Using the Precision 100 framework is as easy as cloning the repository and executing the `migration.sh` shell script. It, ofcourse, assumes that the [prerequisite](http://github.com/ennovatenow/precision-git#prerequisites) components are already installed.
+
+The following command executes a demo migration, no records are actually migrated but it serves the purpose of checking if all the prerequisite components are intalled and configured properly. The 'longer example' and the 'longer longer example' examples provide more details for configuring the framework for proper usage.
+
+The demo migration expects that there is an Oracle schema with the name `precision100` and password `Welcome123` in an Oracle instance with SID: `mig`.
 
 ```
 git clone https://github.com/ennovatenow/precision-git.git
-migration.sh cif_migration mock001
+cd precision-git
+migration.sh demo_migration mock001
 ```
 
-This assumes that there is an Oracle schema with the name `precision100` with the password `Welcome123` with an Oracle SID of `mig` and all the [prerequisites](https://github.com/ennovatenow/precision-git#prerequisites) components are all properly installed.
 
 ### A longer example
 If you have an Oracle instance, you can customize the schema and passwords. Customize the following script to your needs.
@@ -33,7 +37,10 @@ export SID=mig
 
 Now run the following, you should be able to see 2 records in the output table.
 
-`migration.sh cif_migration mock001`
+'''
+cd precision-git
+migration.sh demo_migration mock001
+'''
 
 
 ## Prerequisites
