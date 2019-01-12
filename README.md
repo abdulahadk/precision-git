@@ -9,7 +9,7 @@ git clone https://github.com/ennovatenow/precision-git.git
 migration.sh cif_migration mock001
 ```
 
-This assumes that there is an Oracle schema with the name `precision100` with the password `Welcome123` with an Oracle SID of `mig` and all the prerequisites components are all properly installed.
+This assumes that there is an Oracle schema with the name `precision100` with the password `Welcome123` with an Oracle SID of `mig` and all the [prerequisites](## Prerequisites) components are all properly installed.
 
 ### A longer example
 If you have an Oracle instance, you can customize the schema and passwords. Customize the following script to your needs.
@@ -32,6 +32,7 @@ export SID=mig
 ```
 
 Now run the following, you should be able to see 2 records in the output table.
+
 `migration.sh cif_migration mock001`
 
 
