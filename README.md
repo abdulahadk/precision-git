@@ -1,7 +1,12 @@
 # Precision 100 Migration Framework
 Data migration execution and governance framework
 
-### Prerequisites
+## Usage
+Clone the repository and run the following. If environement is properly setup you should see two records in the output table.
+
+`migration.sh cif_migration mock001`
+
+## Prerequisites
 The framework requires the following components to work
 
 1) Oracle database
@@ -10,6 +15,9 @@ The framework requires the following components to work
 4) git client
 5) git repository
 6) bash shell
+
+## Setup
+Thank you very much for considering to contribute!
 
 ## Contributing
 Thank you very much for considering to contribute!
