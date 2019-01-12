@@ -10,4 +10,8 @@ export SPOOL_PATH=/home/dell/precision100/spool
 export GIT_URL=https://github.com/Evolvus/evolvus-datamigration.git
 export GIT_LOCAL_FOLDER=/home/dell/precision100/git-local
 
-export PRECISION100_FOLDER=/home/dell/precision100
+export PRECISION100_FOLDER=/home/dell/precision100/precision-git
+
+export USERNAME=precision100
+export PASSWORD=Welcome123
+export SID=mig
