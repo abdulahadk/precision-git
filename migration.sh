@@ -1,4 +1,7 @@
 #!/bin/bash
+
+export PRECISION100_FOLDER=$PWD
+export PRECISION100_WORK_FOLDER=$PRECISION100_FOLDER
 source $PRECISION100_FOLDER/.env.sh
 
 if [ "$#" -lt 2 ]; then
